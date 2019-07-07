@@ -8,7 +8,7 @@ The script will work on all Debian-based distros that run the equivalent of Ubun
 1. Download the mcpe-linux.zip file from above. Save it to your home directory. You may use curl or wget if you prefer.
 2. Extract the mcpe-linux.zip file, ensuring all the files are in your home directory, no subfolders!
 3. Open a terminal tab.
-4. Run this command: `sudo bash mcpe-linux-setup.sh`. Ensure you are running it as root (sudo), some parts will fail and MCPE will be only half-installed on your machine - not very helpful!
+4. Run this command: `sudo bash mcpe-linux-setup.sh`. Ensure you are running it as root (sudo), or some parts will fail and MCPE will be only half-installed on your machine - not very helpful!
 5. Assuming everything went well, you should find the Minecraft launcher in your apps list.
 6. Sign in with Google to verify that you own Minecraft on Google Play. If you don't own Minecraft or don't want to sign in, you may use an APK file instead.
 7. Now you should be able to download and play Minecraft from there!
