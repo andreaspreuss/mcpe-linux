@@ -1,5 +1,5 @@
 # 1.6 - "Giraffe"
-After the "Install core dependencies" step, the script will pause for 5 seconds to give you a chance to kill it if the step fails. This helps prevent issues from the script trying to install on an incompatible system.
+After the "Install core dependencies" step, the script will pause for 5 seconds to give you a chance to kill it if the step fails.
 # 1.5 - "Frog"
 The install script now automatically removes the installation files in /home after it's finished. This includes msa, mcpelauncher and mcpelauncher-ui.
 # 1.4 - "Elephant"
