@@ -1,3 +1,5 @@
+# 1.7 - "Hedgehog"
+Better support for i386 packages on Debian. You are now far less likely to experience package not found errors on Debian now.
 # 1.6 - "Giraffe"
 After the "Install core dependencies" step, the script will pause for 5 seconds to give you a chance to kill it if the step fails.
 # 1.5 - "Frog"
