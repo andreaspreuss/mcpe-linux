@@ -5,18 +5,20 @@ We (SupDroid Studio) have written this script, but we did not create the Minecra
 # Version naming scheme?
 It's not that original, we just choose an animal beginning with each letter going through the alphabet. Read all the versions in the changelog.md file!
 # Compatibility
-The script will work on all Debian-based distros that run the equivalent of Ubuntu 18.04 or above. If your distro or version is not supported, please manually build from https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html.
+The script will work on all Debian-based distros that run the equivalent of Ubuntu 18.04/Debian 10 or above. If your distro or version is not supported, please manually build from https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html.
 # Instructions
 1. Open a terminal tab.
 2. (Skip to step 4 if you already have the script downloaded) Run `wget https://github.com/SupDroidStudio/mcpe-linux/raw/master/mcpe-linux.zip`.
 3. Unzip should be preinstalled on your system, but if it isn't, run `sudo apt install unzip`. Now run `unzip mcpe-linux.zip`.
 4. Run `sudo bash mcpe-linux-setup.sh`. Ensure you are running it as root (sudo), or some parts will fail and MCPE will be only half-installed on your machine - not very helpful!
 5. Assuming everything went well, you should find the Minecraft launcher in your apps list.
-6. Sign in with Google to verify that you own Minecraft on Google Play. If you don't own Minecraft or don't want to sign in, you may use an APK file instead.
-7. Now you should be able to download and play Minecraft from there!
+6. Sign in with Google to be able to download Minecraft and play.
+**Please See Below If You Don't Own Minecraft On Google Play!**
 # Removal
 Run `sudo bash mcpe-linux-remove.sh`. This will unistall Minecraft and all its components from /usr/local. It will also remove the folders created in your home directory, however it won't remove the core dependencies, as some of them were already needed by the system and it is impossible to determine which ones were and were not. You can manually remove dependencies if you know which ones are safe to remove, however it may harm your system, so do so at your own risk!
 # Help / Support
 If you are stuck or are facing an issue, contact us at supdroid@mail.uk, or write an issue from the issues tab. The script has been tested and should work without fail, providing your device is supported.
-# Warranty
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# I don't own Minecraft on Google Play!
+That's alright! Please do the following to play Minecraft without purchasing it:
+1. Sign in with Google Play. Even if you don't own Minecraft, you must sign in for this to work.
+2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
