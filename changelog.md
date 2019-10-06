@@ -1,3 +1,5 @@
+# 1.8 - "Iguana"
+Minor amendment made to the end message strings.
 # 1.7 - "Hedgehog"
 Better support for i386 packages on Debian. You are now far less likely to experience package not found errors on Debian now.
 # 1.6 - "Giraffe"
