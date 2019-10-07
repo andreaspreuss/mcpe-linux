@@ -1,3 +1,5 @@
+# 1.9 - "Jaguar"
+Fixed no sound issue on some devices; the script now installs audio dependencies. If you do not wish to re-run the entire script, you can manually install the dependenices with `sudo apt install libpulse0 libpulse0:i386`.
 # 1.8 - "Iguana"
 Minor amendment made to the end message strings.
 # 1.7 - "Hedgehog"
