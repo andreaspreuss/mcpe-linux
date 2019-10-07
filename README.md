@@ -22,3 +22,5 @@ If you are stuck or are facing an issue, contact us at supdroid@mail.uk, or writ
 That's alright! Please do the following to play Minecraft without purchasing it:
 1. Sign in with Google Play. Even if you don't own Minecraft, you must sign in for this to work.
 2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
+# There is no sound!
+Install sound drivers - `sudo apt install libpulse0 libpulse0:i386` (this will install both amd64 and i386 varients which are both required). The latest version of the script "1.9 - Jaguar" (see: changelog.md), the sound drivers are installed as part of the "Core Dependencies".
