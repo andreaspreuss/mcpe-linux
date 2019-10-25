@@ -14,6 +14,11 @@ The script will work on all Debian-based distros that run the equivalent of Ubun
 5. Assuming everything went well, you should find the Minecraft launcher in your apps list.
 6. Sign in with Google to be able to download Minecraft and play.
 **Please See Below If You Don't Own Minecraft On Google Play!**
+# Import custom resource/behaviour packs
+1. If the target pack is in .MCPACK format, please rename the extension to *.ZIP*.
+2. Extract the ZIP to a location of your choice.
+3. Copy the folder with extracted ZIP to `~/.local/share/mcpelauncher/games/com.mojang/resource_packs` if resource pack or `~/.local/share/mcpelauncher/games/com.mojang/behaviour_packs` if behaviour pack. *NOTE: If you need the pack to be imported as a global resource, then also copy to `~/.local/share/mcpelauncher/premium_cache/resource_packs`*.
+4. Restart Minecraft and now your pack is imported!
 # Removal
 Run `sudo bash mcpe-linux-remove.sh`. This will unistall Minecraft and all its components from /usr/local. It will also remove the folders created in your home directory, however it won't remove the core dependencies, as some of them were already needed by the system and it is impossible to determine which ones were and were not. You can manually remove dependencies if you know which ones are safe to remove, however it may harm your system, so do so at your own risk!
 # Help / Support
@@ -24,3 +29,5 @@ That's alright! Please do the following to play Minecraft without purchasing it:
 2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
 # There is no sound!
 Install sound drivers - `sudo apt install libpulse0 libpulse0:i386` (this will install both amd64 and i386 varients which are both required). The latest version of the script "1.9 - Jaguar" (see: changelog.md), the sound drivers are installed as part of the "Core Dependencies".
+# Arch Linux support?
+Support for Arch Linux is currently **under development**. There is no ETA for this, however we hope to have it finalized very soon!
