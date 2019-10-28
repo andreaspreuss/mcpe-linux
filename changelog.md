@@ -1,5 +1,6 @@
 # 2.0 - "Koala"
-The main removal script no longer removes data from `~/.local/share`. Another removal script labelled `mcpe-linux-remove-data.sh` is now present to remove data. This is useful for people who only want to reinstall and/or do not want to lose data.
+- The main removal script no longer removes data from `~/.local/share`. Another removal script labelled `mcpe-linux-remove-data.sh` is now present to remove data. This is useful for people who only want to reinstall and/or do not want to lose data.
+- Now you can cancel with CTRL+C instead of needing to kill the process!
 # 1.9 - "Jaguar"
 Fixed no sound issue on some devices; the script now installs audio dependencies. If you do not wish to re-run the entire script, you can manually install the dependenices with `sudo apt install libpulse0 libpulse0:i386`.
 # 1.8 - "Iguana"
