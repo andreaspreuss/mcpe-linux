@@ -6,6 +6,8 @@ We (SupDroid Studio) have written this script, but we did not create the Minecra
 It's not that original, we just choose an animal beginning with each letter going through the alphabet. Read all the versions in the changelog.md file!
 # Compatibility
 The script will work on all Debian-based distros that run the equivalent of Ubuntu 18.04/Debian 10 or above. If your distro or version is not supported, please manually build from https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html.
+# System Requirements
+The script requires at least 1GB of available RAM to be able to run without crashing your PC, and Minecraft will need at least 2GB of RAM to be able to run without lag (although 4GB+ is advised) (swap area does not count). The installation takes about 2GB of disk space, not including game data, and cannot be installed to an external disk. Having at least 4GB of free disk space is recommended.
 # Instructions
 1. Open a terminal tab.
 2. (Skip to step 4 if you already have the script downloaded) Run `wget https://github.com/SupDroidStudio/mcpe-linux/raw/master/mcpe-linux.zip`.
@@ -29,5 +31,3 @@ That's alright! Please do the following to play Minecraft without purchasing it:
 2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
 # There is no sound!
 Install sound drivers - `sudo apt install libpulse0 libpulse0:i386` (this will install both amd64 and i386 varients which are both required). The latest version of the script "1.9 - Jaguar" (see: changelog.md), the sound drivers are installed as part of the "Core Dependencies".
-# Arch Linux support?
-Support for Arch Linux is currently **under development**. There is no ETA for this, however we hope to have it finalized very soon!
