@@ -18,5 +18,7 @@ Music is not present by default. Please go to the Marketplace, scroll to the bot
 Yep, this happens if you maximise the window without going fully fullscreen. To resolve this after maximising, go to Settings > Video and change the Splitscreen dropdown (it doesn't matter what you change it to, as long as you change it, since this will refresh the display). Alternatively you could try messing with the "GUI scale" slider, but that will most likely just cause more problems down the road.
 # The game crashes on exit!
 This is not an error. By default, when you close the game, the launcher does not expect it, therefore it thinks that the game has crashed. Just ignore the message.
+# Game crashes with error 6!
+This is a known bug affecting version 1.13+ of Minecraft. Until this bug is fixed, you can use 1.12.1 instead (change the profile from the launcher's menu).
 # My question is not answered here!
 That's fine! If you need support, simply drop us an email at supdroid@mail.uk and we will get back to you as soon as we can to resolve your issue.
