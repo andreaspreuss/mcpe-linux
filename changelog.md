@@ -1,4 +1,6 @@
-# 2.0.1 "Koala"
+# 2.1 - "Lemur"
+This update fixes some bugs in the installation script, and changes the installation cache directory to `~/.mcpe-linux-tmp` in order to clean up the home directory during installation and prevent accidental removal during installation and/or corruption of the installation files.
+# 2.0.1 - "Koala"
 Minor amendments made to the scripts.
 # 2.0 - "Koala"
 - The main removal script no longer removes data from `~/.local/share`. Another removal script labelled `mcpe-linux-remove-data.sh` is now present to remove data. This is useful for people who only want to reinstall and/or do not want to lose data.
